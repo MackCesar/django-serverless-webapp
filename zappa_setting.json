@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "django_settings": "django_serverless_webapp.settings",
+        "profile_name": "default",
+        "project_name": "django-serverless-webapp",
+        "runtime": "python3.8",
+        "s3_bucket": "YOUR_S3_BUCKET_NAME",
+        "aws_region": "YOUR_AWS_REGION"
+    }
+}

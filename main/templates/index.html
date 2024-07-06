@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Django Serverless Web App</title>
+    </head>
+    <body>
+        <h1>Django Serverless Web Application</h1
+            <form action="/add/" method="POST">
+                {% csrf_token %}
+                <input type="text" name="data" placeholder="Enter some data">
+                <button type="submit">Submit</button>
+            </form>>
+            <ul>
+                {% for item in items %}
+                <li>{{item.data}}</li>
+                {% endfor %}
+            </ul>
+    </body>
+</html>
